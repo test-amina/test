@@ -29,7 +29,7 @@
 .slider-item {
   width: 100%; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
   height: calc(
-    100vh - 1.4rem
+    100vh - 140px
   ); /* 各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする */
   background-repeat: no-repeat; /*背景画像をリピートしない*/
   /*背景画像の位置を中央に*/
@@ -64,6 +64,6 @@
 
 @media (max-width: 599px) {
   .slider-item {
-    height: calc(100vh - 127px);
+    height: calc(100vh - 117px);
   }
 }

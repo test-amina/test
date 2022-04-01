@@ -384,6 +384,10 @@ header {
   display: block;
 }
 
+.lead-en{
+  height: 4.1rem;
+}
+
 .fv-wrapper {
   width: 100%;
   height: 100%;
@@ -403,6 +407,8 @@ header {
   content: "";
   z-index: -100;
 }
+
+
 
 /* concept
 --------------------------------------------------------------------------- */
@@ -1198,8 +1204,8 @@ header {
   }
   .access-container dl {
     display: block;
-    width: 50%;
-    margin: 0 auto 24px auto;
+    /* width: 50%; */
+    margin: 0 auto 2.4rem auto;
     text-align: center;
   }
   .access-container dt {
@@ -1296,5 +1302,8 @@ header {
   .reserve-btn::before {
     height: 2rem;
     margin-top: 0;
+  }
+  .slider-item {
+    height: calc(100vh - 127px);
   }
 }
